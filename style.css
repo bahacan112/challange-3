@@ -11,6 +11,9 @@ body {
   background: #f1f1f1;
   font-family: roboto, sans-serif;
   background-image: url("./ressources/citynight.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   min-height: 100vh;
 
