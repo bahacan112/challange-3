@@ -1,0 +1,112 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background: #f1f1f1;
+  font-family: roboto, sans-serif;
+  background-image: url("./ressources/citynight.jpg");
+  display: flex;
+  min-height: 100vh;
+
+  flex-direction: column;
+
+}
+
+p {}
+
+.item-p-1 {
+  font-size: clamp(-1.5rem, 0rem + 8vw, 20rem);
+  font-weight: 900;
+  letter-spacing: 3px;
+  color: white;
+}
+
+.item-p-2 {
+  font-size: clamp(-1.5rem, 0rem + 8vw, 5rem);
+  color: white;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+
+}
+
+.nav-list-item {
+  padding: 0;
+  margin: 20px;
+  color: white;
+}
+
+.nav-list-item-a {
+  color: white;
+  text-underline-offset: 15px;
+  font-size: 24px;
+}
+
+.item-main-button {
+  color: black;
+  padding: 20px;
+  margin: 20px;
+}
+
+.item-main-button {
+  font-size: small;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 3px;
+  width: 150px;
+  font-weight: bold;
+}
+
+.main {
+  flex: 1;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+
+
+.footer-button {
+  margin: auto;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  animation: flash 1s infinite;
+
+}
+
+@keyframes flash {
+
+  0%,
+  100% {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  }
+
+  50% {
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.8);
+  }
+}
+
+.footer {
+  display: flex;
+  margin-bottom: 100px;
+  justify-content: center;
+}
+
+.down-image {}
